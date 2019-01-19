@@ -1,0 +1,44 @@
+/******************************************************************************
+Program:		Store Stock
+Author:			Randall Rowland
+Class:			IT 145 Foundations in App Development
+Instructor:		Jim Barringer
+Date:			18 Jan 2019
+Description:    The Store Stock program requests the current on hand stock of
+                apples and oranges.  It also requests what the stock should be.
+                It will then output how many apples and oranges need to be 
+                ordered to ensure a proper stock is maintained.
+Input:          stdin
+Output:         stdout
+
+Known bugs/missing features: 
+
+License:        GNU General Public License v3.0   
+Modifications:
+Date                Comment
+----    ------------------------------------------------
+******************************************************************************/
+
+ASK user how many apples are on hand
+ASSIGN answer to an apples on hand variable
+
+ASK how many apples should be in stock
+ASSIGN answer to an apples required stock variable
+
+ASK how many oranges are on hand
+ASSIGN answer to an oranges on hand variable
+
+ASK how many oranges should be in stock
+ASSIGN answer to an oranges required stock variable
+
+SUBTRACT the apples on hand variable from the apples required stock variable
+ASSIGN the answer to an apples to be ordered variable
+IF the apples to be ordered is less than zero
+    ASSIGN zero to the variable
+
+SUBTRACT the oranges on hand variable from the oranges required stock variable
+ASSIGN the answer to an oranges to be ordered variable
+IF the oranges to be ordered is less than zero
+    ASSIGN zero to the variable
+
+DISPLAY to the user how many apples to order and how many oranges to order.
